@@ -1,26 +1,14 @@
 import React, { useState } from "react";
 import Form from "./form/Form";
 import List from "./list/List";
+import "./styles.css";
 
 const Contacts = () => {
-  const [contacts, setContacts] = useState([
-    {
-      fullname: "John Doe",
-      phone_number: "12335",
-    },
-    {
-      fullname: "Dennis Villenue",
-      phone_number: "123213",
-    },
-    {
-      fullname: "Orhan Berk",
-      phone_number: "12235",
-    },
-  ]);
+  const [contacts, setContacts] = useState([]);
 
   return (
-    <div>
-      Contacts
+    <div className="container">
+      <h1>Contacts</h1>
       <List contacts={contacts} />
       <Form addContact={setContacts} contacts={contacts} />
     </div>

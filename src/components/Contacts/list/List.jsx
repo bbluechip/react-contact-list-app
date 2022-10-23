@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "../styles.css";
 const List = ({ contacts }) => {
   const [filterText, setFilterText] = useState("");
 
@@ -21,10 +21,13 @@ const List = ({ contacts }) => {
         value={filterText}
         onChange={(e) => setFilterText(e.target.value)}
       />
-
-      <ul>
+      <small>Total contacts ({filtered.length})</small>
+      <ul className="list">
         {filtered.map((contact, i) => (
-          <li key={i}>{contact.fullname}</li>
+          <li key={i}>
+            <span>{contact.fullname}</span>
+            <span>{contact.phone_number}</span>
+          </li>
         ))}
       </ul>
     </div>

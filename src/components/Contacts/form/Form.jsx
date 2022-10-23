@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import "../styles.css";
 const initialFormValues = { fullname: "", phone_number: "" };
 const Form = ({ addContact, contacts }) => {
   const [form, setForm] = useState(initialFormValues);
@@ -37,8 +37,8 @@ const Form = ({ addContact, contacts }) => {
           value={form.phone_number}
         />
       </div>
-      <div>
-        <button>Add</button>
+      <div className="btn">
+        <button>ADD</button>
       </div>
     </form>
   );
