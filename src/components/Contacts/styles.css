@@ -58,5 +58,5 @@ ul li {
 button:hover {
   cursor: pointer;
   color: #000000;
-  background-color: #ffffff;
+  background-color: gray;
 }

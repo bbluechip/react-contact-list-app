@@ -12,8 +12,6 @@ const List = ({ contacts }) => {
     );
   });
 
-  console.log("filtered", filtered);
-
   return (
     <div>
       <input

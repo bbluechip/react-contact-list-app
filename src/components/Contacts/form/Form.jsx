@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "../styles.css";
 const initialFormValues = { fullname: "", phone_number: "" };
 const Form = ({ addContact, contacts }) => {
