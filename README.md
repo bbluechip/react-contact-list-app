@@ -2,17 +2,17 @@
 
 ![Animation](https://github.com/bbluechip/react-contact-list-app/blob/master/react-contact-list.gif)
 
-👉[Click here to see the page](https://react-contact-list-app-beryl.vercel.app/)
+👉[Click here to see the page](https://react-album-app.vercel.app/)
 
 ## Used in this project
-👉 Create react app, Reactjs, useState hooks, form, state drilling, search paremether with onchange.
+👉 Create react app, Reactjs, useState hooks, button toggle etc.
 
-👉 CSS.
+👉 CSS via scss etc.
 
 👉 Github & Git commands (push, pull, commit, add etc.)
 
 ## Description
-Made this website to implement mt useState knowledge. And practicing them. 
+For Practicing react, and button toggle via react usestate hook.
 
 # Getting Started with Create React App
 clone repository to your own local file and
