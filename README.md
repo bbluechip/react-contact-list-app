@@ -5,7 +5,7 @@
 👉[Click here to see the page](https://react-contact-list-app-beryl.vercel.app/)
 
 ## Used in this project
-👉 Create react app, Reactjs, useState hooks, form, state drilling.
+👉 Create react app, Reactjs, useState hooks, form, state drilling, search paremether with onchange.
 
 👉 CSS.
 
