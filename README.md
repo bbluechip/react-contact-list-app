@@ -2,17 +2,17 @@
 
 ![Animation](https://github.com/bbluechip/react-contact-list-app/blob/master/react-contact-list.gif)
 
-👉[Click here to see the page](https://react-album-app.vercel.app/)
+👉[Click here to see the page](https://react-contact-list-app-beryl.vercel.app/)
 
 ## Used in this project
-👉 Create react app, Reactjs, useState hooks, button toggle etc.
+👉 Create react app, Reactjs, useState hooks etc.
 
-👉 CSS via scss etc.
+👉 CSS etc.
 
 👉 Github & Git commands (push, pull, commit, add etc.)
 
 ## Description
-For Practicing react, and button toggle via react usestate hook.
+Homework.
 
 # Getting Started with Create React App
 clone repository to your own local file and
